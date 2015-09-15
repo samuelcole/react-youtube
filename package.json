@@ -42,7 +42,6 @@
     "test": "jest",
     "compile": "babel src -d dist",
     "prepublish": "npm run compile",
-    "postinstall": "npm run prepublish",
     "lint": "eslint ."
   },
   "jest": {
